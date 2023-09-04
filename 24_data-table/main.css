@@ -1,0 +1,62 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-wrapper {
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.content {
+    width: 100%;
+    height: 90%;
+    margin-top: 10px;
+}
+
+.pagination {
+    width: 250px;
+    height: 30px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    height: 100%;
+    cursor: pointer;
+}
+.btn-prev {
+
+}
+.btn-next {
+
+}
+
+.data-table {
+    width: 100%;
+
+    border: 1px solid #000;
+}
+
+tr, td, th {
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.sorting {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.reverse-icon {
+    transform: rotateX(180deg);
+}
