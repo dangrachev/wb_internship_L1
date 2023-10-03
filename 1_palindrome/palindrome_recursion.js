@@ -11,5 +11,5 @@ const isPalindrome = (str) => {
     return false;
 };
 
-console.log(isPalindrome('anal karnaval'));
+console.log(isPalindrome('аргqsентина мfанит негрyа'));
 console.log(isPalindrome('аргентина манит негра'));
