@@ -6,7 +6,7 @@ let myMap, suggestView;
 const throttlingDelay = 800; // Время задержки для троттлинга
 const debounceDelay = 300; // Время задержки для дебоунсинга
 
-// Событие нажатия клавиш инициализирует
+// Событие нажатия клавиш
 searchInput.addEventListener('input', (e) => {
     searchingDebounce(e.target.value);
 });
