@@ -2,7 +2,7 @@
 function callFunctions(callbacks = []) {
     return function() {
         let result = [...callbacks];
-        return result.map((callback) => callback());b
+        return result.map((callback) => callback());
     };
 }
 
