@@ -1,6 +1,6 @@
 // Базовый класс Shape c абстрактными методами расчета
 class Shape {
-// Методы расчета площади и периметра в базовом классе
+    // Методы расчета площади и периметра в базовом классе
     calculateArea() {
 
     }
@@ -10,6 +10,7 @@ class Shape {
 }
 
 // Далее создаю подклассы с переопределенными методами для каждого в соответствии с его типом фигуры
+// Подкласс прямоугольника
 class Rectangle extends Shape {
     constructor(width, height) {
         super();
@@ -24,7 +25,7 @@ class Rectangle extends Shape {
     }
 }
 
-// Подкласс Circle (круг)
+// Подкласс круга
 class Circle extends Shape {
     constructor(radius) {
         super();
@@ -38,7 +39,7 @@ class Circle extends Shape {
     }
 }
 
-// Подкласс Triangle (треугольник)
+// Подкласс треугольника
 class Triangle extends Shape {
     constructor(a, b, c) {
         super();
