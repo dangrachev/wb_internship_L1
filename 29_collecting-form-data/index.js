@@ -1,17 +1,16 @@
 function processForm(event) {
-    // Предотвращаем отправку формы и перезагрузку страницы
+    // Предотвращаем перезагрузку страницы
     event.preventDefault();
 
     // Получаем ссылку на форму и создаем из нее объект FormData
     const form = event.target;
     const formData = new FormData(form);
 
-    // Итерируемся по каждой паре name-value формы
+    // Итерируемся по каждой паре значений формы
     for (const entry of formData) {
-        const [prop, value] = entry; // Деструктурируем пару name-value
+        const [prop, value] = entry; // Вытаскиеваем пару ключ-значение
 
-
-        console.log(`Имя поля: ${prop} - Значение поля: ${value}`);
+        console.log(`${prop} - ${value}`);
     }
 
     // Очищаем поля формы, если требуется
