@@ -1,5 +1,3 @@
-/*
-* Для определения максимального объема данных в LocalStorage, можно использовать метод setItem */
 function getMaxLocalStorageSize() {
     const data = 'a'.repeat(1024 * 1024); // Увеличиваем данные на 1 МБ
     const key = 'test';
